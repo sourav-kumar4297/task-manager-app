@@ -10,40 +10,48 @@ const Page = () => {
   const initialTasks = [
     {
       id: 1,
-      title: "Sample Task",
-      description: "This is a sample task 1",
+      title: "Complete Project Report",
+      description: "Prepare and submit the final project report for the team meeting.",
       priority: "High",
       completed: true,
     },
     {
       id: 2,
-      title: "Story no-34353",
-      description: "This is a sample task 2",
+      title: "Buy Groceries",
+      description: "Purchase vegetables, fruits, milk, and bread for the week.",
       priority: "Medium",
       completed: false,
     },
     {
       id: 3,
-      title: "Story no-76723",
-      description: "This is a sample task 3",
+      title: "Schedule Doctor’s Appointment",
+      description: "Book an appointment with the dentist for a routine check-up.",
       priority: "Low",
       completed: false,
     },
     {
       id: 4,
-      title: "Story no-34353",
-      description: "This is a sample task 4",
-      priority: "Medium",
+      title: "Fix Website Bug #12345",
+      description: "Resolve the login issue affecting certain users on the platform.",
+      priority: "High",
       completed: true,
     },
     {
       id: 5,
-      title: "Story no-767223453",
-      description: "This is a sample task 5",
+      title: "Plan Birthday Party",
+      description: "Create a checklist for the party, including invitations and decorations.",
+      priority: "Medium",
+      completed: false,
+    },
+    {
+      id: 6,
+      title: "Water the Plants",
+      description: "Water all indoor and outdoor plants before 8 AM.",
       priority: "Low",
       completed: false,
     },
   ];
+  
 
   const [tasks, setTasks] = useState(initialTasks);
   const [isAddModalOpen, setIsAddModalOpen] = useState(false);
