@@ -13,7 +13,7 @@ const Page = () => {
       title: "Sample Task",
       description: "This is a sample task 1",
       priority: "High",
-      completed: false,
+      completed: true,
     },
     {
       id: 2,
@@ -34,7 +34,7 @@ const Page = () => {
       title: "Story no-34353",
       description: "This is a sample task 4",
       priority: "Medium",
-      completed: false,
+      completed: true,
     },
     {
       id: 5,

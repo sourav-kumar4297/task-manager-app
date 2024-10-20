@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Task Manager App
 
-First, run the development server:
+![Task Manager](https://img.shields.io/badge/Task-Manager-blue)  
+A simple and efficient **Task Manager Application** to manage your to-dos and tasks effectively.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🛠️ Features
+- **Create Tasks:** Add new tasks with a title, description, and due date.
+- **View Tasks:** View all tasks in an organized manner (e.g., lists, or grouped by status).
+- **Update Tasks:** Edit tasks to modify their details (like title, status, or due date).
+- **Delete Tasks:** Remove completed or unnecessary tasks.
+- **Mark as Completed:** Keep track of progress by marking tasks as done.
+- **Filter/Sort Tasks:** Optionally filter tasks by status or sort by due date.
+
+## 🚀 Technologies Used
+- **Frontend:**  
+  - HTML5, CSS3, JavaScript
+  - Next js 
+  - Tailwind CSS framework
+  
+
+- **Additional Tools:**  
+  - Git for version control  
+  - NPM for managing dependencies  
+
+## 📂 Project Structure
+```
+task-manager-app/
+│
+├── public/app             # Frontend assets (HTML, CSS, JS)
+├── package.json        # Dependencies and scripts
+└── README.md           # Project documentation
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ⚙️ Installation and Setup
+Follow these steps to run the project locally:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/sourav-kumar4297/task-manager-app.git
+   cd task-manager-app
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Run the application:**
+   ```bash
+   npm start
+   ```
 
-## Learn More
+4. **Access the app:**  
+   Open your browser and navigate to `http://localhost:3000`.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📝 Future Enhancements
+- Implement user authentication for personal task management.
+- Add notifications or reminders for tasks nearing their deadlines.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 📄 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
