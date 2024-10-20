@@ -102,7 +102,7 @@ const Page = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 p-8">
+    <div className="min-h-screen bg-gray-100 p-1 md:p-8">
       <Header onOpenAddModal={handleOpenAddModal} />
       <main>
         <TaskList
